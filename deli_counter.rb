@@ -1,5 +1,6 @@
 def line(katz_deli)
-  line = 
+  line = "The line is currently: "
+  
   puts "The line is currently empty."
   
 end
