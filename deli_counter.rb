@@ -25,14 +25,3 @@ def now_serving(katz_deli)
   end
   katz_deli.shift
 end
-
-take_a_number(katz_deli, "Igor")
-take_a_number(katz_deli, "Bob")
-take_a_number(katz_deli, "Melanie")
-line(katz_deli)
-now_serving(katz_deli)
-line(katz_deli)
-take_a_number(katz_deli, "Corgi")
-line(katz_deli)
-now_serving(katz_deli)
-line(katz_deli)
