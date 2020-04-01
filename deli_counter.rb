@@ -7,5 +7,5 @@ def line(katz_deli)
     puts line
   else
   puts "The line is currently empty."
-  
+end
 end
