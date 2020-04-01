@@ -1,3 +1,4 @@
+katz_deli = []
 def line(katz_deli)
   line = "The line is currently: "
   if katz_deli.length > 0
