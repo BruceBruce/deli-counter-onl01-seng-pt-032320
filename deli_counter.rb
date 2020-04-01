@@ -1,12 +1,12 @@
 katz_deli = []
 
 def line(katz_deli)
-  line = "The line is currently: "
+  queue = "The line is currently: "
   if katz_deli.length > 0 
     katz_deli.each_with_index do |name, index|
       phrase += "#{index + 1}. #{name} "
     end
-    puts line
+    puts queue
   else
     puts "The line is currently empty."
   end
