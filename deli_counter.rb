@@ -5,6 +5,7 @@ def line(katz_deli)
       line += "#{index + 1}. #{name} "
     end
     puts line
+  else
   puts "The line is currently empty."
   
 end
